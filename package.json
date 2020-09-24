@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-pda-scan.git",
-    "baseUrl": "https://github.com/github_account/react-native-pda-scan"
+    "url": "git+https://github.com/XuJin186/react-native-pda-scan.git",
+    "baseUrl": "https://github.com/XuJin186/react-native-pda-scan"
   },
   "keywords": [
     "react-native",
