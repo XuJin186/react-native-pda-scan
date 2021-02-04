@@ -20,17 +20,15 @@
 
 ```javascript
 import usePdaScan from "react-native-pda-scan";
-
-const { code, error } = usePdaScan(
-  {
-   (code) => {
-    console.log(code);
-  },
-  (error) => {
-    console.log(error);
-  },
-  trigger:"always"  //always: An event is triggered each time the code is scanned。 change:Events are triggered when changes occur
-  }
-
-);
+usePdaScan({
+    onEvent(e) {
+        console.log(333);
+        console.log(e);
+    },
+    onError(e) {
+        console.log(666);
+        console.log(e);
+    },
+    trigger: "always",
+  });
 ```
